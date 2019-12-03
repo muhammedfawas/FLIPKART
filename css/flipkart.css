@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Roboto', sans-serif;
+     background: lightgray;
+}
+#Headersection {
+    background: #2874f0;
+    height: 55px;
+    width: 100%;
+}
+.leftContent{
+   
+   width:20%;
+   height: 30px;
+   float: left;
+
+ 
+}
+
+.ceneterContent {
+
+width:40% ;
+float: left;
+}
+.rightContent {
+width: 29%;
+float: right;
+}
+.leftContent {
+position: relative;
+    left: 198px;
+    top: 10px;
+}
+.logounder>a{
+    position: relative;
+    left: -72px;
+    top: 10px;
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
+.off{
+    position: relative;
+    bottom: 26px;
+    left: 116px;
+    color: yellow;
+}
+
+
+.ceneterContent>input{
+    width: 100%;
+    height: 36px;
+    border: none;
+    padding: 0px 16px;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+.fa-search{
+    z-index: 1;
+    position: relative;
+    position: relative;
+    color: blue;
+    bottom: 16px;
+    left: 584px;
+
+}
+.rightContent>ul {
+    list-style: none;
+}
+.rightContent>ul>li{
+    float: left;
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+.fa-shopping-cart {
+    z-index: 1;
+    position: relative;
+    padding-right: 6px;
+}
+#foot {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    height:40Px;
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+
+}
+.footcontent>ul {
+list-style: none;
+position: relative;
+    left: 96px;
+
+}
+.footcontent>ul>li {
+    
+    float:left;
+    padding-left: 70px;
+}
+
+
+
+.slider{
+    width: 100%;
+    height: 280px;
+    background-repeat: no-repeat;
+   background:url("../images/1.jpg");
+    animation: slide 10s infinite;
+    background-size: cover;
+  
+}
+@keyframes slide {
+    25%{background: url("../images/3.jpg") ;  background-size: cover;}
+    50%{background: url("../images/2.jpg");  background-size: cover;}
+    70%{background: url("../images/4.jpg");  background-size: cover;}
+}
+.tv {
+    width: 97%;
+    margin:10px 2%;
+
+
+}
+.img1 {
+width:32.5%;
+float: left;
+height:300px;
+background: url("../images/mixi.jpg");
+background-size: cover;
+box-shadow: -7px -3px 8px;
+}
+.img2 {
+    width:32.5%;
+    float: left;
+    height:300px;
+background: url("../images/mob.jpg");
+background-size: cover;
+margin: 0% 1%;
+box-shadow: -7px -3px 8px;
+}
+
+.img3 {
+    width:32.5%;
+    float: left;
+    height:300px;
+background: url("../images/tv.jpg");
+background-size: cover;
+box-shadow: -7px -3px 8px;
+}
+.cart1 {
+    position: absolute;
+    top: 1px;
+    right: 190px;
+    background: #ff6161;
+    border-radius: 50%;
+    height: 18px;
+    width: 16px;
+    text-align: center;
+    border: solid 1px white;
+    font-size: 12px;
+    border-style: dashed;
+}
+.on {
+    position: absolute;
+    top: -2px;
+    left: 57px;
+}
